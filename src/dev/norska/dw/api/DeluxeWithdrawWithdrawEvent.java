@@ -10,16 +10,14 @@ import org.bukkit.event.HandlerList;
 public class DeluxeWithdrawWithdrawEvent extends Event implements Cancellable{
 
     private final Player player;
-    private final NoteType type;
     private final String tier;
     private final Double value;
     private final UUID creator;
     private final String creationDate;
     private boolean isCancelled;
 
-    public DeluxeWithdrawWithdrawEvent(Player player, NoteType type, String tier, Double value, UUID creator, String creationDate) {
+    public DeluxeWithdrawWithdrawEvent(Player player, String tier, Double value, UUID creator, String creationDate) {
         this.player = player;
-        this.type = type;
         this.tier = tier;
         this.value = value;
         this.creator = creator;
@@ -62,10 +60,6 @@ public class DeluxeWithdrawWithdrawEvent extends Event implements Cancellable{
     
     public Double getValue() {
     	return this.value;
-    }
-
-    public NoteType getType() {
-    	return this.type;
     }
 
 }

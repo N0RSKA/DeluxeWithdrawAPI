@@ -7,25 +7,16 @@ import org.bukkit.inventory.ItemStack;
 public class DeluxeWithdrawAPI {
 	
 	/** 
-	* Check if an ItemStack is a redeemable experience item.
+	* Get the provider of a redeemable item (should be checked with #isRedeemableItem first).
 	* @param ItemStack
-	* @return Boolean
+	* @return String
 	*/
-	public static Boolean isExperienceNoteItem(ItemStack item) {
+	public static String getProvider(ItemStack item) {
 		return null;
 	}
 	
 	/** 
-	* Check if an ItemStack is a redeemable money item.
-	* @param ItemStack
-	* @return Boolean
-	*/
-	public static Boolean isMoneyNoteItem(ItemStack item) {
-		return null;
-	}
-	
-	/** 
-	* Get the value of a redeemable item (should be checked with #isExperienceNoteItem or #isMoneyNoteItem first).
+	* Get the value of a redeemable item (should be checked with #isRedeemableItem first).
 	* @param ItemStack
 	* @return Double
 	*/
@@ -34,7 +25,7 @@ public class DeluxeWithdrawAPI {
 	}
 	
 	/** 
-	* Get the tax percentage of a redeemable item (should be checked with #isExperienceNoteItem or #isMoneyNoteItem first).
+	* Get the tax percentage of a redeemable item (should be checked with #isRedeemableItem first).
 	* @param ItemStack
 	* @return Double
 	*/
@@ -43,7 +34,7 @@ public class DeluxeWithdrawAPI {
 	}
 	
 	/** 
-	* Get the creator name of a redeemable item (should be checked with #isExperienceNoteItem or #isMoneyNoteItem first).
+	* Get the creator name of a redeemable item (should be checked with #isRedeemableItem first).
 	* @param ItemStack
 	* @return String
 	*/
@@ -52,7 +43,7 @@ public class DeluxeWithdrawAPI {
 	}
 	
 	/** 
-	* Get the creator uuid of redeemable item (should be checked with #isExperienceNoteItem or #isMoneyNoteItem first).
+	* Get the creator uuid of redeemable item (should be checked with #isRedeemableItem first).
 	* @param ItemStack
 	* @return UUID
 	*/
@@ -61,7 +52,7 @@ public class DeluxeWithdrawAPI {
 	}
 	
 	/** 
-	* Get the creation date of a redeemable item (should be checked with #isExperienceNoteItem or #isMoneyNoteItem first).
+	* Get the creation date of a redeemable item (should be checked with #isRedeemableItem first).
 	* @param ItemStack
 	* @return String
 	*/
@@ -70,11 +61,20 @@ public class DeluxeWithdrawAPI {
 	}
 	
 	/** 
-	* Get the tier of a redeemable item (should be checked with #isExperienceNoteItem or #isMoneyNoteItem first).
+	* Get the tier of a redeemable item (should be checked with #isRedeemableItem first).
 	* @param ItemStack
 	* @return String
 	*/
 	public static String getNoteTier(ItemStack item) {
+		return null;
+	}
+	
+	/** 
+	* Check if an itemstack is a redeemable item created by DeluxeWithdraw.
+	* @param ItemStack
+	* @return Boolean
+	*/
+	public static Boolean isRedeemableItem(ItemStack item) {
 		return null;
 	}
 

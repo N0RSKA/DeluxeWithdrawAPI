@@ -37,4 +37,6 @@ public interface DWAddonInterface {
 	
 	String adminCreator();
 	
+	void reloadConfiguration();
+	
 }

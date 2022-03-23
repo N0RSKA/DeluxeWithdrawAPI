@@ -39,4 +39,6 @@ public interface DWAddonInterface {
 	
 	void reloadConfiguration();
 	
+	Boolean useInt();
+	
 }

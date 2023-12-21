@@ -1,4 +1,4 @@
-# DeluxeWithdrawAPI
+# DeluxeWithdrawAPI [![](https://jitpack.io/v/N0RSKA/DeluxeWithdrawAPI.svg)](https://jitpack.io/#N0RSKA/DeluxeWithdrawAPI)
 
 Start using the API: https://jitpack.io/#N0RSKA/DeluxeWithdrawAPI/
 

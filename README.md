@@ -1,7 +1,30 @@
-# DeluxeWithdrawAPI [![](https://jitpack.io/v/N0RSKA/DeluxeWithdrawAPI.svg)](https://jitpack.io/#N0RSKA/DeluxeWithdrawAPI)
+# DeluxeWithdrawAPI 
 
-Start using the API: https://jitpack.io/#N0RSKA/DeluxeWithdrawAPI/
+![JitPack](https://jitpack.io/v/N0RSKA/DeluxeWithdrawAPI.svg)
 
-JavaDocs: https://javadocs.norska.dev/dw/
+API for integrating with the DeluxeWithdraw plugin.
 
-Discord: https://norska.dev/discord/
+## Quick Start
+
+### Maven Integration
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>com.github.N0RSKA</groupId>
+        <artifactId>DeluxeWithdrawAPI</artifactId>
+        <version>REPLACE WITH JITPACK VERSION</version>
+    </dependency>
+</dependencies>
+```
+
+### Links
+- **API Usage**: [JitPack](https://jitpack.io/#N0RSKA/DeluxeWithdrawAPI/)
+- **Documentation**: [JavaDocs](https://javadocs.norska.dev/dw/)
+- **Support**: [Discord](https://norska.dev/discord/)
